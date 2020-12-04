@@ -6,7 +6,7 @@ class LoginScreen extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Title(color: Colors.purple, child: Text('LoginScreen')),
+          title: Title(color: Colors.blueGrey, child: Text('LoginScreen')),
         ),
         body: Center(
           child: Column(
