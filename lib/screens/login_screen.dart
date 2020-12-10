@@ -6,7 +6,7 @@ class LoginScreen extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Title(color: Colors.blueGrey, child: Text('LoginScreen')),
+          title: Title(color: Colors.white, child: Text('LoginScreen')),
         ),
         body: Center(
           child: Column(
@@ -14,7 +14,7 @@ class LoginScreen extends StatelessWidget {
             children: [
               ElevatedButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/chat');
+                  Navigator.pushNamed(context, '/map');
                 },
                 child: Text('Chat Screen'),
               ),

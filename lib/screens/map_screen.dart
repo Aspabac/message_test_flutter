@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class ChatScreen extends StatelessWidget {
+class MapScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Title(color: Colors.purple, child: Text('ChatScreen')),
+          title: Title(color: Colors.white, child: Text('ChatScreen')),
         ),
         body: Center(
           child: Column(
