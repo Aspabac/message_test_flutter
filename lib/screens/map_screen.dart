@@ -22,7 +22,7 @@ class MapScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pop(context);
                 },
-                child: Text('Pop Off'),
+                child: Text('Just a test to remote repository'),
               ),
             ],
           ),
